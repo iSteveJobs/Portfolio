@@ -16,12 +16,13 @@
   <body>
     <header class="header">
       <a href="#" class="logo">Portfolio</a>
+
       <nav class="navbar">
-        <a href="#" style="--i: 1" class="active">Home</a>
-        <a href="#" style="--i: 2">About</a>
-        <a href="#" style="--i: 3">Skill</a>
-        <a href="#" style="--i: 4">Portfolio</a>
-        <a href="#" style="--i: 5">Contact</a>
+        <a href="#home" style="--i: 1" class="active">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#skills" style="--i: 3">Skill</a>
+        <a href="#portfolio" style="--i: 4">Portfolio</a>
+        <a href="#contact" style="--i: 5">Contact</a>
       </nav>
     </header>
     <section class="home">
@@ -64,14 +65,139 @@
     <!-- about section end -->
 
     <!-- services Section Start -->
-     <section>
-        <div class="service" id="service">
-            <div class="container">
-                <h1 class="sub-title">My <span>Services</span></h1>
+    <section>
+      <div class="services" id="services">
+        <div class="container">
+          <h1 class="sub-title">My <span>Services</span></h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code" style="color: #00eeff"></i>
+              <h2>UI/UX Design</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum corporis, optio aliquid a quae ducimus beatae aliquam
+                commodi impedit, doloribus dolorum sit amet quod vitae! Sapiente
+                possimus fuga totam sed!
+              </p>
+              <a href="#" class="read">Learn more</a>
             </div>
+            <div>
+              <i class="fa-solid fa-crop-simple" style="color: #00eeff"></i>
+              <h2>UI/UX Design</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum corporis, optio aliquid a quae ducimus beatae aliquam
+                commodi impedit, doloribus dolorum sit amet quod vitae! Sapiente
+                possimus fuga totam sed!
+              </p>
+              <a href="#" class="read">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-apple" style="color: #00eeff"></i>
+              <h2>UI/UX Design</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptatum corporis, optio aliquid a quae ducimus beatae aliquam
+                commodi impedit, doloribus dolorum sit amet quod vitae! Sapiente
+                possimus fuga totam sed!
+              </p>
+              <a href="#" class="read">Learn more</a>
+            </div>
+          </div>
         </div>
-     </section>
-    <!-- services Section end -->   
+      </div>
+    </section>
+    <!-- services Section end -->
+
+    <!-- My Skills Section Start -->
+    <h1 class="sub-title">My <span>Skills</span></h1>
+
+    <section>
+      <div class="container1" id="skills">
+        <h1 class="heading1">Technical Skills</h1>
+        <div class="Technical-bars">
+          <div class="bar">
+            <i class="fa-brands fa-c" style="color: #74c0fc"></i>
+            <div class="info">
+              <span>C++</span>
+            </div>
+            <div class="progress-line c">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-html5" style="color: #c95d2e"></i>
+            <div class="info">
+              <span>HTML</span>
+            </div>
+            <div class="progress-line html">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-css3" style="color: #b0bc1e"></i>
+            <div class="info">
+              <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">
+            <i class="fa-brands fa-js" style="color: #c32ec9"></i>
+            <div class="info">
+              <span>Java Script</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container1">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bar-container">
+          <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">80%</div>
+          <div class="text">Creativity</div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">65%</div>
+          <div class="text">Communication</div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">80%</div>
+          <div class="text">Problem Solving</div>
+        </div>
+        <div class="radial-bar">
+          <svg x="0px" y="0px" viewBox="0 0 200 200">
+            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+          </svg>
+          <div class="percentage">70%</div>
+          <div class="text">Team Work</div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- My Skills Section End -->
+
+     <!-- Portfolio Section STARt -->
+      <!-- work later -->
+     <!-- Portfolio Section End -->
 
     <!-- for js file -->
     <script src="main.js"></script>
